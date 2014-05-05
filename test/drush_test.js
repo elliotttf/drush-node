@@ -1,4 +1,4 @@
-var drush = require('../lib/drush.js');
+var drush = require('../lib/drush-node.js');
 
 exports['drush'] = {
   setUp: function (done) {

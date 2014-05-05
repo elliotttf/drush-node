@@ -1,6 +1,6 @@
-# drush for node
+# drush for node.js
 
-This is a simple node.js wrapper for running drush commands.
+This is a simple node.js wrapper for running [drush](https://github.com/drush-ops/drush) commands.
 
 To use:
 
@@ -35,3 +35,6 @@ group.then(function (res) {
   console.log(res.join("\r"));
 });
 ```
+
+You must call `Drush.init()` before executing other commands, but as long
+as the `Drush` object remains in scope you only need to call it once.

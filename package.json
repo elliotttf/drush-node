@@ -1,13 +1,29 @@
 {
-  "name": "drush",
-  "version": "0.0.0",
+  "name": "drush-node",
+  "version": "0.1.0",
   "description": "Drush wrapper for node.js.",
-  "main": "lib/drush",
+  "main": "lib/drush-node",
   "scripts": {
     "test": "grunt test"
   },
-  "author": "Elliott Foster <elliottf@codebrews.com> (http://codebrews.com/)",
-  "license": "MIT",
+  "author": {
+    "name": "Elliott Foster",
+    "email": "elliottf@codebrews.com",
+    "url": "http://codebrews.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/elliotttf/drush-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elliotttf/drush-node/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/elliotttf/img64/blob/master/LICENSE-MIT"
+    }
+  ],
   "dependencies": {
     "promised-io": "^0.3.4"
   },
