@@ -1,0 +1,19 @@
+{
+  "name": "drush",
+  "version": "0.0.0",
+  "description": "Drush wrapper for node.js.",
+  "main": "lib/drush",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "Elliott Foster <elliottf@codebrews.com> (http://codebrews.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "promised-io": "^0.3.4"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3"
+  }
+}
