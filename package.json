@@ -1,6 +1,6 @@
 {
   "name": "drush-node",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "node.js wrapper for drush.",
   "main": "lib/drush-node",
   "scripts": {
@@ -25,7 +25,8 @@
     }
   ],
   "dependencies": {
-    "promised-io": "^0.3.4"
+    "promised-io": "^0.3.4",
+    "lodash": "^2.4.1"
   },
   "devDependencies": {
     "grunt": "^0.4.4",

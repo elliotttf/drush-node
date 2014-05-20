@@ -38,3 +38,15 @@ group.then(function (res) {
 
 You must call `Drush.init()` before executing other commands, but as long
 as the `Drush` object remains in scope you only need to call it once.
+
+### Advanced options
+
+You may pass additional options to the underlaying [exec commands](http://nodejs.org/api/child_process.html#child_process_child_process_exec_command_options_callback)
+by calling init with a hash of appropriate options:
+
+```javascript
+drush.init({ maxBuffer: 256 * 1024 * 1024 })
+```
+
+*Note*: You may need to increase the buffer size for commands that return a lot
+of output.
