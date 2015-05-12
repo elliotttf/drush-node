@@ -5,7 +5,7 @@ This is a simple node.js wrapper for running [drush](https://github.com/drush-op
 To use:
 
 ```javascript
-var drush = require('drush');
+var drush = require('drush-node');
 
 drush.init().then(
   function () {
