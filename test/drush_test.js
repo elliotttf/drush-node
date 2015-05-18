@@ -47,25 +47,5 @@ exports['drush'] = {
             }
           );
       });
-  },
-
-  spawn: function (test) {
-    test.expect(1);
-
-    drush.init()
-      .then(function () {
-        drush.spawn(['st'])
-          .then(
-            function (res) {
-              test.ok(true, 'Drush can execute.');
-              test.done();
-            },
-            function (err) {
-              test.ok(false, 'Drush output unexpected.');
-              test.done();
-            }
-          );
-      });
   }
 };
-
