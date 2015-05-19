@@ -18,7 +18,7 @@ drush.init().then(
       );
 
     // Executes `drush cc all` and logs the output as the command is running.
-    drush.exec('cc all'], {log: true});
+    drush.exec('cc all', {log: true});
   }
 );
 ```
