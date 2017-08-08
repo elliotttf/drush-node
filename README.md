@@ -1,5 +1,7 @@
 # drush for node.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/elliotttf/drush-node.svg)](https://greenkeeper.io/)
+
 This is a simple node.js wrapper for running [drush](https://github.com/drush-ops/drush) commands.
 
 To use:
